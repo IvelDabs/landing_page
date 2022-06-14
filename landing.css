@@ -44,41 +44,49 @@ h1{
   vertical-align: top;
 }
 
+.images {
+  width: 400px;
+  margin-left: 20px;
+  margin-right: 80px;
+ }
+ 
+ 
+ .child {
+   width: 500px;
+   border: none;
+ }
+
 .logo{
   color: white;
   display: flex;
-  padding: 80px;
+  padding: 40px 120px;
   justify-content: space-around; 
   vertical-align: top;
+  
 }
 
 .home {
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  margin-right: 20px;
-  margin-left: 30px;
-}
-
-.images {
- width: 400px;
- margin-left: 20px;
-}
-
-
-.child {
   width: 500px;
-  border: none;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
-/*second section styling below*/
 
 h2{
   font-size: 48px;
   color: #f9faf8;
   font-family: roboto;
   font-weight: extra-bold;
+  display: block;
 }
+
+.first {
+  line-height: 25px;
+}
+
+
+
+/*second section styling below*/
 
 .middle {
   background-color: white;
