@@ -29,6 +29,7 @@ h1{
   font-size: 18px;
   cursor: pointer;
   transition: color 1s;
+  margin-right: 40px;
 }
 
 .navigation:hover{
@@ -54,6 +55,7 @@ h1{
  .child {
    width: 500px;
    border: none;
+   flex-wrap: wrap;
  }
 
 .logo{
